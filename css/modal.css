@@ -1,0 +1,37 @@
+/* Você pode adicionar qualquer estilo adicional para o modal aqui */
+.modal-content {
+    padding: 20px;
+}
+
+.modal-body p::first-letter {
+    font-size: 1.5em;
+}
+
+/* Estilos adicionais para o modal de download */
+.modal-body ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.modal-body ul li {
+    padding: 10px 0;
+}
+
+.modal-body ul li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Estilos adicionais para o modal de galeria */
+.modal-body .carousel-item {
+    height: 500px;
+}
+
+.modal-body .carousel-item img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.modal-body ul li a:hover {
+    text-decoration: underline;
+}

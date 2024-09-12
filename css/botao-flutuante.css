@@ -1,0 +1,37 @@
+.floating-button {
+    right: 20px;
+    position: fixed;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    text-decoration: none !important;
+    font-size: 18px;
+    display: none;
+}
+
+/*PARA ANIMAR O BOTÃO DE INSCRIÇÃO (MOBILE) E O LINK (DESKTOP)*/
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+#botao-compartilhar {
+    bottom: 10px;
+    display: flex;
+    background-color: #25D366;
+    color: white;
+}

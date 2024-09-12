@@ -1,0 +1,42 @@
+.nav-link.active {
+    font-weight: bold;
+    /* Negrito para itens destacados */
+    border-radius: 5px;
+    background-color: gray;
+    box-shadow: 2px 2px 5px hsl(0deg 0% 0% / 30%);
+}
+
+/* Define the background color with transparency */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+    /* Preto com 80% de opacidade */
+}
+
+.navbar-brand-custom {
+    font-size: 1.00rem;
+    line-height: 1;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand-custom i {
+    margin-right: 10px;
+    /* Ajuste a margem para o espaço desejado entre o ícone e o texto */
+}
+
+.p-left {
+    padding-left: 8rem;
+}
+
+.navbar-nav-custom{
+    gap: .5rem;
+}
+
+#navbarNav {
+    justify-content: flex-end;
+}
+
+#botao-home {
+    display: none;
+}
