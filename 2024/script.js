@@ -90,4 +90,17 @@ $(document).ready(function () {
     }
   });
 
+  // Script para alternar entre Expandir biografia e Retrair biografia 
+  document.querySelectorAll('.toggle-btn').forEach(function(button) {
+    button.addEventListener('click', function() {
+        // Verifica se o conteúdo está expandido ou colapsado
+        var collapseElement = document.querySelector(this.getAttribute('href'));
+        if (collapseElement.classList.contains('show')) {
+            this.textContent = 'Expandir biografia';
+        } else {
+            this.textContent = 'Recolher biografia';
+        }
+    });
+});
+
 });
