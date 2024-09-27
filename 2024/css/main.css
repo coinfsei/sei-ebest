@@ -18,7 +18,7 @@ html {
 }
 
 /*PADDING BOOTSTRAP PERSONALIZADO PARA AS SEÇÕES*/
-.py-section-custom{
+.py-section{
     padding-top: 4.7rem;
     padding-bottom: 3rem;
 }
