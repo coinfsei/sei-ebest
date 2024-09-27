@@ -1,0 +1,90 @@
+/*Resolução máxima de 767 pixels - Para se ajustar aos dispositivos mobile*/
+@media (max-width: 767px) {
+
+    table th,
+    table td {
+        font-size: 12.5px;
+        /* Reduz o tamanho da fonte */
+        padding: 5px;
+        /* Reduz o padding */
+    }
+
+    .navbar-toggler .navbar-toggler-icon {
+        background-image: url('data:image/svg+xml;charset=UTF8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"%3E%3Cpath stroke="rgba%28255, 255, 255, 1%29" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M6 6L24 24M6 24L24 6"/%3E%3C/svg%3E');
+        /* X Icon */
+        transition: transform 0.3s ease;
+    }
+
+    .navbar-toggler.collapsed .navbar-toggler-icon {
+        background-image: url('data:image/svg+xml;charset=UTF8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"%3E%3Cpath stroke="rgba%28255, 255, 255, 1%29" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E');
+        /* Hamburger Icon */
+    }
+
+    .quebra-linha::after {
+        content: "";
+        display: block;
+    }
+
+    .padding-customizado {
+        padding: .5rem 1rem;
+    }
+
+    .row-patrocinio {
+        flex-direction: column;
+    }
+
+
+    #home {
+        background-image: url(../imgs/fundo-banner-mobile.png);
+        background-size: cover;
+    }
+
+    #botao-inscricao {
+        display: flex;
+        animation: pulse 1s infinite;
+        bottom: 110px;
+        background-color: #007bff;
+        color: white;
+    }
+
+    #botao-submissao {
+        display: flex;
+      /*  animation: pulse 1s infinite; */
+        bottom: 60px;
+        background-color: #007bff;
+        color: white;
+    }
+
+    #botao-compartilhar {
+        bottom: 10px;
+        color: white;
+    }
+
+    #home .banner {
+        padding: 0;
+        margin-bottom: 25px;
+        margin-top: 60px;
+    }
+}
+
+/*Resolução máxima de 991 pixels - Resolução máxima que mantém os itens do menu da barra de navegação colapsados no icone de hambuguer*/
+@media (max-width: 991px) {
+    .nav-link.pulse {
+        animation: none;
+    }
+
+    #botao-home {
+        display: inline !important;
+    }
+
+    #botao-home-menu {
+        display: none;
+    }
+}
+
+/*Ajuste feito para diminuir a fonte dos itens de navegação quando o padding lateral bootstrap do conteúdo aumentar.*/
+@media (max-width: 1200px) {
+    .btn {
+        font-size: .9rem !important;
+    }
+}

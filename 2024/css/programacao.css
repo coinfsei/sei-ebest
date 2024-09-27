@@ -1,0 +1,7 @@
+.table td, .table th {
+    vertical-align: middle !important;
+}
+
+.td-bold{
+  font-weight: bold;
+}
