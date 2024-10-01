@@ -42,7 +42,7 @@
     #botao-inscricao {
         display: flex;
         animation: pulse 1s infinite;
-        bottom: 110px;
+        bottom: 60px;
         background-color: #007bff;
         color: white;
     }
@@ -50,7 +50,7 @@
     #botao-submissao {
         display: flex;
       /*  animation: pulse 1s infinite; */
-        bottom: 60px;
+        bottom: 110px;
         background-color: #007bff;
         color: white;
     }
