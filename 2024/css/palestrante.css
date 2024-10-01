@@ -1,4 +1,23 @@
-.card {
+#speakers .card {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 1rem;
   }
+
+#speakers .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%; /* Garante que todos os cards tenham a mesma altura */
+}
+
+#speakers .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+#speakers .card .btn {
+  width: 100%; /* Faz com que o botão ocupe toda a largura do card */
+  margin-top: auto; /* Move o botão para o final do card */
+}
