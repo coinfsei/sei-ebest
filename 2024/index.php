@@ -10,6 +10,19 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css" rel="stylesheet">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DZMQCG0SFP"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-DZMQCG0SFP');
+    </script>
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="70">
@@ -24,13 +37,14 @@
     <?php include('./snippets/sobre.html'); ?>
 
     <!-- Sessão Submissão -->
-    <?php //include('./snippets/submissao.html'); ?>
+    <?php include('./snippets/submissao.html'); 
+    ?>
 
     <!-- Sessão de Programação -->
     <?php include('./snippets/programacao.html'); ?>
-    
-     <!-- Modal de Download -->
-     <?php include('./snippets/download.html'); ?>
+
+    <!-- Modal de Download -->
+    <?php include('./snippets/download.html'); ?>
 
     <!-- Seção Palestrantes -->
     <?php include('./snippets/palestrantes.html'); ?>
